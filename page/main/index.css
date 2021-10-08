@@ -1,0 +1,62 @@
+#page {
+    height: calc(100% - 80px);
+    position: relative;
+}
+
+#page .main {
+    display: inline-block;
+    position: relative;
+    width: 1220px;
+    height: 620px;
+    top: calc((100% - 620px) / 2);
+    color: white;
+}
+#page .main .device {
+    background-image: url(./img/device.png);
+    background-size: 820px;
+    width: 820px;
+    background-position-y: -20px;
+    height: 580px;
+}
+#page .main .description-box {
+    position: absolute;
+    top: 40px;
+    left: 810px;
+    width: 410px;
+    text-align: left;
+}
+#page .main .description-box .logo {
+    font-size: 70px;
+    font-weight: bold;
+    background-image: url(./img/logo.png);
+    width: 410px;
+    height: 120px;
+    background-size: 460px;
+    background-position: -50px -55px;
+}
+#page .main .description-box .title {
+    font-size: 46px;
+    line-height: 43px;
+    margin-top: 20px;
+    letter-spacing: -3px;
+}
+#page .main .description-box .description {
+    font-size: 24px;
+    margin-top: 29px;
+    font-weight: 100;
+    letter-spacing: -3px;
+}
+#page .main .description-box .bt-box {
+    text-align: center;
+    margin-top: 40px;
+}
+#page .main .description-box .bt-box .bt {
+    width: 140px;
+    height: 42px;
+    border: 1px solid white;
+    border-radius: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}

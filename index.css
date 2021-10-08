@@ -1,0 +1,61 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Noto Sans KR';
+    min-width: 1050px;
+    min-height: 100vh;
+    letter-spacing : 0px;
+}
+body {
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.page-width {
+    max-width: 1360px;
+    width: 100%;
+
+}
+#page {
+    min-height: calc(100% - 80px);
+    position: relative;
+}
+@media screen and (min-width: 1360px) {
+    .page-width {
+        margin-left: calc((100% - 1360px) / 2);
+        margin-right: calc((100% - 1360px) / 2);
+    }
+}
+
+
+/* 
+@font-face {
+    font-family: "bold";
+    src: url(./font/AppleSDGothicNeoH.ttf);
+}
+@font-face {
+    font-family: "medium";
+    src: url(./font/AppleSDGothicNeoM.ttf);
+}
+@font-face {
+    font-family: "light";
+    src: url(./font/AppleSDGothicNeoUL.ttf);
+} */
+
+
+.pupple {
+
+}
+.pupple a {
+    color: #a36ac5 !important;
+}
+.center {
+    text-align: center;
+}

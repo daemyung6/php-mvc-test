@@ -1,0 +1,6 @@
+RewriteEngine On
+
+#RewriteCond %{REQUEST_URI} !^/filename
+#RewriteCond %{REQUEST_URI} !^/foldername/
+
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?url=$1
